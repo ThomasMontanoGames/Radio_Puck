@@ -3311,130 +3311,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "R_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_1_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SWD Header:FTSH-105-X-X-DV-007-P-X"
 			(pin_names
 				(offset 1.016)
@@ -4098,16 +3974,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 88.9 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ca4ffe-24b6-4af1-a265-1208fc4efd75")
-	)
-	(wire
-		(pts
 			(xy 270.51 29.21) (xy 273.05 29.21)
 		)
 		(stroke
@@ -4235,6 +4101,16 @@
 			(type default)
 		)
 		(uuid "5d4fac29-e25a-4039-8427-94a45ef58703")
+	)
+	(wire
+		(pts
+			(xy 85.09 93.98) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e867635-083f-47f8-b34c-03ce7d194f31")
 	)
 	(wire
 		(pts
@@ -4916,125 +4792,269 @@
 			"RQaSJMl7BGSDvLNEGCgU8s6A53kVs5L3FBlzGk7eI+C/fgAHDYEHScJKxgAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "SWDIO"
-		(at 88.9 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1392988b-c2b5-4d02-b5ad-667cfbd12f98")
-	)
-	(label "Boot1"
-		(at 104.14 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "17ce056a-b75a-4baa-bc80-95d42598d96f")
-	)
-	(label "NRST"
-		(at 34.29 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "188e6751-d11c-4ceb-ab12-1737a0e73ccc")
-	)
-	(label "SWCLK"
-		(at 88.9 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f26970d-79ad-4270-8726-1341c4500f13")
-	)
-	(label "SWDIO"
-		(at 273.05 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "570cdd9d-63ae-46bb-9287-4206a121a698")
-	)
-	(label "SWDCLK"
+	(global_label "SWDCLK"
+		(shape input)
 		(at 273.05 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "68966d17-c4fc-4320-9ecf-d7073e9d3a2e")
+		(uuid "04671d86-7b90-4c1b-944b-1efdc18563d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.5342 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "Boot0"
-		(at 34.29 48.26 180)
+	(global_label "SWCLK"
+		(shape input)
+		(at 88.9 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "7c2fe092-2417-49f2-9ecb-7f3413bd6cca")
+		(uuid "0d4348ec-3de7-4cc9-8e11-5837a321371c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1142 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "Boot1"
-		(at 88.9 91.44 0)
+	(global_label "SWDIO"
+		(shape input)
+		(at 88.9 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "8fb7a6a1-34e3-4ff4-9461-f91d3ee93786")
-	)
-	(label "SWO"
-		(at 273.05 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "271ccf5b-866c-4fef-a871-ed7fa9ed24c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.7514 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "b42fedb8-afae-448b-a036-793389ce20ae")
 	)
-	(label "NRST"
-		(at 273.05 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5039845-7381-40fc-bda1-7ca8f9878a94")
-	)
-	(label "Boot0"
+	(global_label "Boot0"
+		(shape input)
 		(at 104.14 165.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "be9b4f56-9a62-4e8c-a5d9-7238eb7a8971")
+		(uuid "426242a9-7315-4d88-b00b-5eac663430c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.6516 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SWO"
-		(at 88.9 93.98 0)
+	(global_label "Boot0"
+		(shape input)
+		(at 34.29 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "e9a9fa32-6a74-4bf4-a391-769686c53cb4")
+		(uuid "7d980faa-3dac-4c6f-b5b0-11f25b011c70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8016 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWO"
+		(shape input)
+		(at 273.05 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96b8a89e-ef40-4137-9421-ebb34f0c1476")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.0266 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Boot1"
+		(shape input)
+		(at 88.9 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "983f909a-a6e1-4a27-9cd6-2310e9515c10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.3884 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWO"
+		(shape input)
+		(at 88.9 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7fd4a86-01b1-4e19-ad97-b1a0fa722291")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.8766 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape input)
+		(at 34.29 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc9a1ad4-63d5-4cab-9172-0781de2e535a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5272 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 273.05 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e60aac48-0858-450f-9f80-d2369e4085d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.9014 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape input)
+		(at 273.05 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec8156a2-5a39-404f-b695-a63d9a10034b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.8128 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Boot1"
+		(shape input)
+		(at 104.14 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fca0627c-d81a-4e3a-91ea-3f69a6a34cdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.6516 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5239,7 +5259,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 160.02 177.8 0)
 		(unit 1)

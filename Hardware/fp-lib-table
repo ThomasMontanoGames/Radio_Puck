@@ -6,4 +6,6 @@
   (lib (name "C3225X5R0J107M250AB")(type "KiCad")(uri "${KIPRJMOD}/Libraries/C3225X5R0J107M250AB")(options "")(descr ""))
   (lib (name "C3225X5R0J476M250AA")(type "KiCad")(uri "${KIPRJMOD}/Libraries/C3225X5R0J476M250AA")(options "")(descr ""))
   (lib (name "C0402C104J8RACTU")(type "KiCad")(uri "${KIPRJMOD}/Libraries/C0402C104J8RACTU")(options "")(descr ""))
+  (lib (name "TRME337K010R0035")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TRME337K010R0035")(options "")(descr ""))
+  (lib (name "CMD17_21VGD_TR8")(type "KiCad")(uri "${KIPRJMOD}/Libraries/CMD17_21VGD_TR8")(options "")(descr ""))
 )

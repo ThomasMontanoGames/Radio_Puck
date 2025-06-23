@@ -652,6 +652,14 @@
     [
       "bd0f5978-e4b1-41e2-96b4-94a3773ac12f",
       "3V3 Power"
+    ],
+    [
+      "2dc9614d-695e-43f1-a091-76db997bc2c6",
+      "RF Chain"
+    ],
+    [
+      "d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b",
+      "External Connectors"
     ]
   ],
   "text_variables": {}

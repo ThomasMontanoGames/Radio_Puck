@@ -9,4 +9,5 @@
   (lib (name "TRME337K010R0035")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TRME337K010R0035")(options "")(descr ""))
   (lib (name "CMD17_21VGD_TR8")(type "KiCad")(uri "${KIPRJMOD}/Libraries/CMD17_21VGD_TR8")(options "")(descr ""))
   (lib (name "132225")(type "KiCad")(uri "${KIPRJMOD}/Libraries/132225")(options "")(descr ""))
+  (lib (name "A70-112-331N126")(type "KiCad")(uri "${KIPRJMOD}/Libraries/A70-112-331N126")(options "")(descr ""))
 )

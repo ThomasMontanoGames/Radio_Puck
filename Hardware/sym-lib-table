@@ -10,4 +10,5 @@
   (lib (name "TRME337K010R0035")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TRME337K010R0035/TRME337K010R0035.kicad_sym")(options "")(descr ""))
   (lib (name "2025-06-23_02-31-26")(type "KiCad")(uri "${KIPRJMOD}/Libraries/CMD17_21VGD_TR8/2025-06-23_02-31-26.kicad_sym")(options "")(descr ""))
   (lib (name "2025-06-23_21-27-18")(type "KiCad")(uri "${KIPRJMOD}/Libraries/132225/2025-06-23_21-27-18.kicad_sym")(options "")(descr ""))
+  (lib (name "A70-112-331N126")(type "KiCad")(uri "${KIPRJMOD}/Libraries/A70-112-331N126/A70-112-331N126.kicad_sym")(options "")(descr ""))
 )

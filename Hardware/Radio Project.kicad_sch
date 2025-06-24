@@ -4268,10 +4268,10 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_IN8" bidirectional line)
 					(alternate "ADC2_IN8" bidirectional line)
 					(alternate "ETH_RXD2" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM1_CH2N" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TIM8_CH2N" bidirectional line)
@@ -4294,10 +4294,10 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_IN9" bidirectional line)
 					(alternate "ADC2_IN9" bidirectional line)
 					(alternate "ETH_RXD3" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM1_CH3N" bidirectional line)
 					(alternate "TIM3_CH4" bidirectional line)
 					(alternate "TIM8_CH3N" bidirectional line)
@@ -4488,7 +4488,6 @@
 					(alternate "DCMI_D7" bidirectional line)
 					(alternate "I2C1_SDA" bidirectional line)
 					(alternate "I2S2_WS" bidirectional line)
-					(alternate "" input line)
 					(alternate "SDIO_D5" bidirectional line)
 					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "TIM11_CH1" bidirectional line)
@@ -4515,7 +4514,6 @@
 					(alternate "ETH_RX_ER" bidirectional line)
 					(alternate "I2C2_SCL" bidirectional line)
 					(alternate "I2S2_CK" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI2_SCK" bidirectional line)
 					(alternate "TIM2_CH3" bidirectional line)
 					(alternate "USART3_TX" bidirectional line)
@@ -4721,7 +4719,6 @@
 					(alternate "ADC3_IN12" bidirectional line)
 					(alternate "ETH_TXD2" bidirectional line)
 					(alternate "I2S2_ext_SD" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI2_MISO" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_DIR" bidirectional line)
 				)
@@ -4748,7 +4745,6 @@
 					(alternate "ADC3_IN13" bidirectional line)
 					(alternate "ETH_TX_CLK" bidirectional line)
 					(alternate "I2S2_SD" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI2_MOSI" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_NXT" bidirectional line)
 				)
@@ -4769,10 +4765,10 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_IN14" bidirectional line)
 					(alternate "ADC2_IN14" bidirectional line)
 					(alternate "ETH_RXD0" bidirectional line)
-					(alternate "" input line)
 				)
 				(pin bidirectional line
 					(at 25.4 -35.56 180)
@@ -4791,10 +4787,10 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_IN15" bidirectional line)
 					(alternate "ADC2_IN15" bidirectional line)
 					(alternate "ETH_RXD1" bidirectional line)
-					(alternate "" input line)
 				)
 				(pin bidirectional line
 					(at 25.4 -38.1 180)
@@ -9563,6 +9559,48 @@
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 132.08)
+		(size 33.02 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8127e5c0-6601-4146-a9f2-512dea28772c")
+		(property "Sheetname" "Ethernet PHY"
+			(at 195.58 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet_phy.kicad_sch"
+			(at 195.58 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Radio Project"
+				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777"
+					(page "5")
 				)
 			)
 		)

@@ -660,6 +660,10 @@
     [
       "d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b",
       "External Connectors"
+    ],
+    [
+      "8127e5c0-6601-4146-a9f2-512dea28772c",
+      "Ethernet PHY"
     ]
   ],
   "text_variables": {}

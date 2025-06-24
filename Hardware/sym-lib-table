@@ -11,4 +11,6 @@
   (lib (name "2025-06-23_02-31-26")(type "KiCad")(uri "${KIPRJMOD}/Libraries/CMD17_21VGD_TR8/2025-06-23_02-31-26.kicad_sym")(options "")(descr ""))
   (lib (name "2025-06-23_21-27-18")(type "KiCad")(uri "${KIPRJMOD}/Libraries/132225/2025-06-23_21-27-18.kicad_sym")(options "")(descr ""))
   (lib (name "A70-112-331N126")(type "KiCad")(uri "${KIPRJMOD}/Libraries/A70-112-331N126/A70-112-331N126.kicad_sym")(options "")(descr ""))
+  (lib (name "DP83822IRHBR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DP83822IRHBR/DP83822IRHBR.kicad_sym")(options "")(descr ""))
+  (lib (name "WE-RJ45_7499010211A")(type "KiCad")(uri "${KIPRJMOD}/Libraries/7499010211A/WE-RJ45_7499010211A.kicad_sym")(options "")(descr ""))
 )

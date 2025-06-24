@@ -395,6 +395,150 @@
 					)
 				)
 			)
+			(pin output line
+				(at -27.94 -24.13 0)
+				(length 5.08)
+				(name "RX_D3/GPIO3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -27.94 -26.67 0)
+				(length 5.08)
+				(name "RX_D2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -27.94 -29.21 0)
+				(length 5.08)
+				(name "RX_D1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -27.94 -31.75 0)
+				(length 5.08)
+				(name "RX_D0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -27.94 -34.29 0)
+				(length 5.08)
+				(name "RX_DV/RX_CTRL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -27.94 -36.83 0)
+				(length 5.08)
+				(name "RX_ER"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -27.94 -39.37 0)
+				(length 5.08)
+				(name "CRS/CRS_DV"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -27.94 -41.91 0)
+				(length 5.08)
+				(name "COL/GPIO2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin no_connect line
 				(at -27.94 -50.8 0)
 				(length 5.08)
@@ -470,14 +614,14 @@
 			(pin bidirectional line
 				(at 27.94 29.21 180)
 				(length 5.08)
-				(name "RD_M"
+				(name "RD_P"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "9"
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -488,14 +632,14 @@
 			(pin bidirectional line
 				(at 27.94 26.67 180)
 				(length 5.08)
-				(name "RD_P"
+				(name "RD_M"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "10"
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -521,26 +665,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 27.94 12.7 180)
-				(length 5.08)
-				(name "CRS/CRS_DV"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 27.94 5.08 180)
+				(at 27.94 11.43 180)
 				(length 5.08)
 				(name "LED_1/GPIO1"
 					(effects
@@ -550,132 +676,6 @@
 					)
 				)
 				(number "24"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 27.94 2.54 180)
-				(length 5.08)
-				(name "COL/GPIO2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 27.94 -2.54 180)
-				(length 5.08)
-				(name "RX_ER"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 27.94 -7.62 180)
-				(length 5.08)
-				(name "RX_DV/RX_CTRL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 27.94 -10.16 180)
-				(length 5.08)
-				(name "RX_D0"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 27.94 -12.7 180)
-				(length 5.08)
-				(name "RX_D1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 27.94 -15.24 180)
-				(length 5.08)
-				(name "RX_D2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 27.94 -17.78 180)
-				(length 5.08)
-				(name "RX_D3/GPIO3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)

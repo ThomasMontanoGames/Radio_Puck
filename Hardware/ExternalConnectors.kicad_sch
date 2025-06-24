@@ -1995,7 +1995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "088676b3-c0b9-480d-a1d6-096d13fb9bcf")
-		(property "Reference" "R17"
+		(property "Reference" "R29"
 			(at 246.38 38.608 90)
 			(effects
 				(font
@@ -2047,7 +2047,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b"
-					(reference "R17")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2063,7 +2063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1386ecdf-0fbd-45d3-935e-f7ddb8e4681f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 236.22 153.67 0)
 			(effects
 				(font
@@ -2113,7 +2113,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2129,7 +2129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ea9a788-71a1-4af0-b87e-39bfd8ca893d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR033"
 			(at 265.43 105.41 0)
 			(effects
 				(font
@@ -2179,7 +2179,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b"
-					(reference "#PWR021")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2195,7 +2195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c59fde-d3dc-4c71-a9f6-edd1298e7cfb")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 229.87 21.59 0)
 			(effects
 				(font
@@ -2299,7 +2299,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2314,7 +2314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "387e93a2-53b0-4d7d-b908-2b606a2098b8")
-		(property "Reference" "R18"
+		(property "Reference" "R27"
 			(at 246.38 28.448 90)
 			(effects
 				(font
@@ -2366,7 +2366,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b"
-					(reference "R18")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2482,7 +2482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "954cf2d9-c8b6-45e9-bc07-5969e6f3d3b8")
-		(property "Reference" "R19"
+		(property "Reference" "R28"
 			(at 246.38 30.988 90)
 			(effects
 				(font
@@ -2534,7 +2534,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b"
-					(reference "R19")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2550,7 +2550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9589faf0-2dec-4b8e-b9ce-867950e05f1c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR030"
 			(at 209.55 26.67 0)
 			(effects
 				(font
@@ -2600,7 +2600,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b"
-					(reference "#PWR07")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2616,7 +2616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2e67c64-5b5c-412b-896c-75dfda468652")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR031"
 			(at 209.55 45.72 0)
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/d0c0b47f-61ad-4bb7-9e2d-9e0a26fbb87b"
-					(reference "#PWR08")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

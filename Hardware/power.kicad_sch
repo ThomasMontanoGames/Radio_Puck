@@ -5971,7 +5971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e8b939-62a1-4ccf-b4f7-e52c245f83c3")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 170.18 36.8299 90)
 			(effects
 				(font
@@ -6026,7 +6026,7 @@
 		(instances
 			(project ""
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6151,7 +6151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1274ba64-4fbf-492d-9449-0bb90d410c02")
-		(property "Reference" "R22"
+		(property "Reference" "R29"
 			(at 36.83 34.29 90)
 			(effects
 				(font
@@ -6203,7 +6203,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "R22")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6219,7 +6219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1386ecdf-0fbd-45d3-935e-f7ddb8e4681f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR023"
 			(at 77.47 194.31 0)
 			(effects
 				(font
@@ -6269,7 +6269,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR030")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6285,7 +6285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26eb0897-cdf6-4905-b942-f1f157fc23a1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR027"
 			(at 151.13 34.29 0)
 			(effects
 				(font
@@ -6335,7 +6335,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR016")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6351,7 +6351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ea9a788-71a1-4af0-b87e-39bfd8ca893d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR024"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -6401,7 +6401,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR031")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6417,7 +6417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b775a03-4652-4637-9f0e-10f354eae448")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR019"
 			(at 27.94 39.37 0)
 			(effects
 				(font
@@ -6467,7 +6467,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR011")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6483,7 +6483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f4f6661-67dd-4b08-89ad-8412177aad2f")
-		(property "Reference" "R24"
+		(property "Reference" "R33"
 			(at 185.42 40.6399 0)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "R24")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -6553,7 +6553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44b54b4f-2661-4a39-8340-cd7ca5c043c7")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR029"
 			(at 166.37 33.02 0)
 			(effects
 				(font
@@ -6603,7 +6603,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR018")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6691,7 +6691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6440f93c-da1f-4e8e-8f5d-fe25b1be9de9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR025"
 			(at 107.95 101.6 0)
 			(effects
 				(font
@@ -6741,7 +6741,7 @@
 		(instances
 			(project ""
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR015")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6757,7 +6757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65634d29-f621-4fa7-8732-81e1829bb9c4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR026"
 			(at 123.19 144.78 0)
 			(effects
 				(font
@@ -6807,7 +6807,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR044")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6823,7 +6823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c6f2fd9-1364-41f1-ad2a-3444935b207d")
-		(property "Reference" "R50"
+		(property "Reference" "R31"
 			(at 119.38 129.5399 0)
 			(effects
 				(font
@@ -6877,7 +6877,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "R50")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6893,7 +6893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "781fd42b-4540-4b51-aec8-ba95fab74249")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR031"
 			(at 182.88 33.02 0)
 			(effects
 				(font
@@ -6943,7 +6943,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR020")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6959,7 +6959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7830788d-1515-4897-9988-e36b5edbef8b")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 85.09 109.22 0)
 			(effects
 				(font
@@ -7080,7 +7080,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7096,7 +7096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8018efff-468d-403c-9ebe-48c2fcdd4c71")
-		(property "Reference" "C13"
+		(property "Reference" "C17"
 			(at 154.94 53.3399 90)
 			(effects
 				(font
@@ -7191,7 +7191,7 @@
 		(instances
 			(project ""
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "C13")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7207,7 +7207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85e31703-20c8-4809-ae00-8cd1e6d0fa72")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR028"
 			(at 151.13 69.85 0)
 			(effects
 				(font
@@ -7257,7 +7257,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR017")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7273,7 +7273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b4c9c12-00bc-4641-b7b0-f2fab0c7374d")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 48.26 45.7199 90)
 			(effects
 				(font
@@ -7329,7 +7329,7 @@
 		(instances
 			(project ""
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7345,7 +7345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d5e9c42-8631-465b-893a-8ced589cb8ea")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR021"
 			(at 44.45 59.69 0)
 			(effects
 				(font
@@ -7395,7 +7395,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR013")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7411,7 +7411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a14c173-c4a3-4e60-acb0-b6c457875cc0")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 31.75 45.7199 90)
 			(effects
 				(font
@@ -7506,7 +7506,7 @@
 		(instances
 			(project ""
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -7522,7 +7522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca231dd-52a9-45ec-902c-b942fa8350fa")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR032"
 			(at 182.88 52.07 0)
 			(effects
 				(font
@@ -7572,7 +7572,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR021")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7588,7 +7588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3650982-411d-47b1-8df4-a6bff183ea98")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR022"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -7638,7 +7638,7 @@
 		(instances
 			(project ""
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR014")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7654,7 +7654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b71b7eb4-4f64-47d1-84dd-32571373ff6a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR020"
 			(at 27.94 59.69 0)
 			(effects
 				(font
@@ -7704,7 +7704,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR012")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7720,7 +7720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da89b969-3ce9-4cbe-b892-febe64abbccc")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 86.36 26.67 0)
 			(effects
 				(font
@@ -7818,7 +7818,7 @@
 		(instances
 			(project ""
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7834,7 +7834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db7207b9-fcef-46ad-a593-4e668d1bc368")
-		(property "Reference" "R23"
+		(property "Reference" "R30"
 			(at 62.23 45.72 90)
 			(effects
 				(font
@@ -7886,7 +7886,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "R23")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7902,7 +7902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb1b2b5a-a294-4037-9a4b-836acd0932fc")
-		(property "Reference" "R51"
+		(property "Reference" "R32"
 			(at 132.08 129.5399 0)
 			(effects
 				(font
@@ -7956,7 +7956,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "R51")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -7972,7 +7972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecbd7d4e-c897-46eb-9f6e-601faa1fe643")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR030"
 			(at 166.37 52.07 0)
 			(effects
 				(font
@@ -8022,7 +8022,7 @@
 		(instances
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/bd0f5978-e4b1-41e2-96b4-94a3773ac12f"
-					(reference "#PWR019")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

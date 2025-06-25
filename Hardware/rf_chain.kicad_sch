@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "314f70b2-bef5-4cd2-9606-d0d0826e3e31")
 	(paper "A4")
+	(title_block
+		(title "RF Modems and Front End")
+		(date "2025-06-25")
+		(rev "1")
+		(company "Thomas Montano")
+	)
 	(lib_symbols
 		(symbol "2025-06-23_21-27-18:132225"
 			(pin_names

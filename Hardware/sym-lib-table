@@ -13,4 +13,8 @@
   (lib (name "A70-112-331N126")(type "KiCad")(uri "${KIPRJMOD}/Libraries/A70-112-331N126/A70-112-331N126.kicad_sym")(options "")(descr ""))
   (lib (name "DP83822IRHBR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DP83822IRHBR/DP83822IRHBR.kicad_sym")(options "")(descr ""))
   (lib (name "WE-RJ45_7499010211A")(type "KiCad")(uri "${KIPRJMOD}/Libraries/7499010211A/WE-RJ45_7499010211A.kicad_sym")(options "")(descr ""))
+  (lib (name "TL3305AF160QG")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TL3305AF160QG/TL3305AF160QG.kicad_sym")(options "")(descr ""))
+  (lib (name "0805ZC225KAT2A")(type "KiCad")(uri "${KIPRJMOD}/Libraries/0805ZC225KAT2A/0805ZC225KAT2A.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-06-25_18-37-08")(type "KiCad")(uri "${KIPRJMOD}/Libraries/SIT1566AC_JV_XXE_32_768D/2025-06-25_18-37-08.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-06-25_18-52-34")(type "KiCad")(uri "${KIPRJMOD}/Libraries/SIT5000AICGE_33N0_25_000000Y/2025-06-25_18-52-34.kicad_sym")(options "")(descr ""))
 )

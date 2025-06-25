@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "f118a7f2-e2c2-4b16-bc29-c9d2afddea6e")
 	(paper "A4")
+	(title_block
+		(title "Ethernet PHY Interface")
+		(date "2025-06-25")
+		(rev "1")
+		(company "Thomas Montano")
+	)
 	(lib_symbols
 		(symbol "C0402C104J8RACTU_1"
 			(pin_names
@@ -3188,6 +3194,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 54.61) (xy 73.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f564a1c-4249-4766-970f-3c11b37df94d")
+	)
+	(wire
+		(pts
 			(xy 134.62 123.19) (xy 134.62 125.73)
 		)
 		(stroke
@@ -3195,16 +3211,6 @@
 			(type default)
 		)
 		(uuid "11b33693-11f9-459d-b750-53b0a7f6c564")
-	)
-	(wire
-		(pts
-			(xy 41.91 60.96) (xy 41.91 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12eaae63-c841-445d-8090-cb5b91800c50")
 	)
 	(wire
 		(pts
@@ -3658,6 +3664,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 57.15) (xy 73.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728d5e12-2579-435a-b831-3b8a4f0e43c7")
+	)
+	(wire
+		(pts
 			(xy 227.33 74.93) (xy 227.33 80.01)
 		)
 		(stroke
@@ -3748,6 +3764,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 49.53) (xy 59.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82753ff6-2aab-4aaa-bebd-22f40580bdf6")
+	)
+	(wire
+		(pts
 			(xy 134.62 133.35) (xy 134.62 137.16)
 		)
 		(stroke
@@ -3825,16 +3851,6 @@
 			(type default)
 		)
 		(uuid "9666e926-ec6a-446c-ad3e-acef0efe9ffb")
-	)
-	(wire
-		(pts
-			(xy 41.91 53.34) (xy 41.91 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b435e8c-7548-4a78-ac37-4f09de77e88c")
 	)
 	(wire
 		(pts
@@ -3958,6 +3974,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 57.15) (xy 62.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84a3edf-1732-4f33-97b7-8f3946fa91e0")
+	)
+	(wire
+		(pts
 			(xy 73.66 44.45) (xy 69.85 44.45)
 		)
 		(stroke
@@ -3978,7 +4004,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 49.53) (xy 73.66 49.53)
+			(xy 69.85 49.53) (xy 73.66 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6368,6 +6394,28 @@
 			)
 		)
 	)
+	(global_label "ETH_INT_PWDN"
+		(shape bidirectional)
+		(at 57.15 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca5b43b1-81cf-40be-85b2-399c1c86c51a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.7587 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ETH_RX_CRS"
 		(shape output)
 		(at 57.15 119.38 180)
@@ -6406,6 +6454,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_RESET"
+		(shape input)
+		(at 57.15 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2ed0f97-4d10-4b67-911b-a548b765ea69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.7587 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8154,7 +8224,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 62.23 0)
+		(at 59.69 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8162,7 +8232,7 @@
 		(dnp no)
 		(uuid "59ffdd33-de85-4da7-b5da-e7b752415d4f")
 		(property "Reference" "#PWR036"
-			(at 41.91 68.58 0)
+			(at 53.34 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 67.31 0)
+			(at 54.61 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 62.23 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 62.23 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 62.23 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +8422,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 57.15 180)
+		(at 66.04 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8361,25 +8431,23 @@
 		(fields_autoplaced yes)
 		(uuid "833c811e-747d-452b-b3db-5bd15a29d665")
 		(property "Reference" "R30"
-			(at 44.45 55.8799 0)
+			(at 66.04 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.87k"
-			(at 44.45 58.4199 0)
+			(at 66.04 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 43.688 57.15 90)
+			(at 66.04 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 57.15 0)
+			(at 66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8465,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 57.15 0)
+			(at 66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,6 +8588,73 @@
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/8127e5c0-6601-4146-a9f2-512dea28772c"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8697d7a8-8a19-4e61-a789-692c5524621e")
+		(property "Reference" "R53"
+			(at 59.944 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40"
+			(at 70.866 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 55.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e72e1f68-f0bb-4a66-be8b-cd204f27b40a")
+		)
+		(pin "2"
+			(uuid "84189baa-808a-431c-91df-1d07cb092851")
+		)
+		(instances
+			(project "Radio Project"
+				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/8127e5c0-6601-4146-a9f2-512dea28772c"
+					(reference "R53")
 					(unit 1)
 				)
 			)

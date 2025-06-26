@@ -7372,6 +7372,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 73.66) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc051d7-addf-4cbb-b61d-f183ae0e944a")
+	)
+	(wire
+		(pts
 			(xy 259.08 57.15) (xy 265.43 57.15)
 		)
 		(stroke
@@ -7682,6 +7692,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c158005-7338-4367-89b9-1a16863c051e")
+	)
+	(wire
+		(pts
 			(xy 34.29 170.18) (xy 40.64 170.18)
 		)
 		(stroke
@@ -7769,6 +7789,16 @@
 			(type default)
 		)
 		(uuid "45a91727-58d1-4c56-aecd-d53715c47ecd")
+	)
+	(wire
+		(pts
+			(xy 115.57 73.66) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484fa03d-7587-4ffe-8d09-be1aa6d6e8cf")
 	)
 	(wire
 		(pts
@@ -9182,6 +9212,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 71.12) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e8994c-4cd6-43f9-a97f-b82eed3f5f0e")
+	)
+	(wire
+		(pts
 			(xy 52.07 119.38) (xy 43.18 119.38)
 		)
 		(stroke
@@ -10510,6 +10550,28 @@
 			)
 		)
 	)
+	(global_label "USB_DM"
+		(shape bidirectional)
+		(at 124.46 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d714adc6-2a8f-4d85-8942-a2bdec30973d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.9442 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CLK_25MHZ_MCO"
 		(shape output)
 		(at 124.46 63.5 0)
@@ -10589,6 +10651,28 @@
 		(uuid "e1d7c774-9958-4724-a229-a0180abd7e06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.7909 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP"
+		(shape bidirectional)
+		(at 124.46 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1f1b4b1-c93d-4eb2-9b92-122b2ca22dbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.7628 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14040,6 +14124,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 111.76 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f6426eb-4ea6-4a0b-a8b9-d10666b81cc5")
+		(property "Reference" "R69"
+			(at 105.664 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40"
+			(at 116.586 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 111.76 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7a77eb-7ce3-4398-8034-a3948f6f45da")
+		)
+		(pin "2"
+			(uuid "df6ee55b-20e0-4fa7-9544-3a959b4920b7")
+		)
+		(instances
+			(project "Radio Project"
+				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/ea821ff4-3fef-400e-81c9-25868b35804d"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 19.05 116.84 270)
 		(unit 1)
@@ -16364,6 +16515,73 @@
 			(project "Radio Project"
 				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/ea821ff4-3fef-400e-81c9-25868b35804d"
 					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6dbdbd9-0596-4ff8-8cdb-e2516214736e")
+		(property "Reference" "R70"
+			(at 105.664 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40"
+			(at 116.586 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 111.76 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1fab109-8de3-4d81-902d-5bb8ceda383a")
+		)
+		(pin "2"
+			(uuid "378d6807-c254-421f-8f27-6e2aed7ea4ca")
+		)
+		(instances
+			(project "Radio Project"
+				(path "/ca6389fe-9846-40e3-87a4-456cfcfc0777/ea821ff4-3fef-400e-81c9-25868b35804d"
+					(reference "R70")
 					(unit 1)
 				)
 			)

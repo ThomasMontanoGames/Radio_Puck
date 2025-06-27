@@ -15534,6 +15534,7 @@
 		)
 		(pin "70"
 			(uuid "3001d4c0-5830-4cb6-aa33-b2f022cf0c11")
+			(alternate "USB_OTG_FS_DM")
 		)
 		(pin "51"
 			(uuid "a3e264ec-675c-41de-8318-8aab9e4c308e")
@@ -15580,6 +15581,7 @@
 		)
 		(pin "71"
 			(uuid "0468edc1-3c82-4b3e-bd0b-4b190bb31f2b")
+			(alternate "USB_OTG_FS_DP")
 		)
 		(pin "52"
 			(uuid "953783c0-5e6d-42d9-8bcb-65418a5ee549")

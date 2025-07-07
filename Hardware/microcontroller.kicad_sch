@@ -4731,7 +4731,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -11.43 -71.12 90)
 					(length 5.08)
 					(name "VSS"
@@ -4767,7 +4767,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -8.89 -71.12 90)
 					(length 5.08)
 					(name "VSSA"
@@ -4803,6 +4803,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -6.35 -71.12 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -5.08 73.66 270)
 					(length 5.08)
@@ -4814,6 +4832,24 @@
 						)
 					)
 					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -71.12 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "99"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4839,47 +4875,9 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 73.66 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 0 -71.12 90)
+					(at -1.27 -71.12 90)
 					(length 5.08)
-					(hide yes)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -71.12 90)
-					(length 5.08)
-					(hide yes)
 					(name "VSS"
 						(effects
 							(font
@@ -4895,18 +4893,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -71.12 90)
+				(pin power_in line
+					(at 0 73.66 270)
 					(length 5.08)
-					(hide yes)
-					(name "VSS"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "99"
+					(number "50"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7001,6 +6998,12 @@
 		(uuid "1cdb5802-5cf8-4669-9f9f-ea3fe46448bd")
 	)
 	(junction
+		(at 73.66 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f3db2ac-fdd3-413c-bc1a-188684e13049")
+	)
+	(junction
 		(at 69.85 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7173,6 +7176,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed372910-b40d-435a-b90c-2fbe42f9127d")
+	)
+	(junction
+		(at 71.12 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd9fec69-1e9c-44db-82cb-1d07060cbc24")
 	)
 	(no_connect
 		(at 102.87 167.64)
@@ -7411,6 +7420,16 @@
 			(type default)
 		)
 		(uuid "210d2b6f-430c-4e1f-a373-78eb2b8d94e9")
+	)
+	(wire
+		(pts
+			(xy 73.66 180.34) (xy 76.2 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23500225-9c34-4ad3-998d-42f139a9ab64")
 	)
 	(wire
 		(pts
@@ -7741,6 +7760,16 @@
 			(type default)
 		)
 		(uuid "41e99d68-abba-40e5-b6c3-d8bda73717d5")
+	)
+	(wire
+		(pts
+			(xy 68.58 180.34) (xy 71.12 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f5aa00-1558-4411-a166-41d41e51627e")
 	)
 	(wire
 		(pts
@@ -8444,6 +8473,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 180.34) (xy 73.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e7d4f0-0303-4a01-99d7-0c5dd8f9a465")
+	)
+	(wire
+		(pts
 			(xy 85.09 24.13) (xy 87.63 24.13)
 		)
 		(stroke
@@ -8454,6 +8493,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 180.34) (xy 71.12 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963dadf0-2c87-4c50-bfc7-8442a823f7b8")
+	)
+	(wire
+		(pts
 			(xy 212.09 38.1) (xy 219.71 38.1)
 		)
 		(stroke
@@ -8461,6 +8510,16 @@
 			(type default)
 		)
 		(uuid "9675850c-9ea9-4813-8153-648a68fae3a3")
+	)
+	(wire
+		(pts
+			(xy 76.2 180.34) (xy 76.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba534df-f9d3-4d32-a9dc-15e77ff25cdb")
 	)
 	(wire
 		(pts
@@ -8701,6 +8760,16 @@
 			(type default)
 		)
 		(uuid "b8bf15fb-705c-49c4-a383-cf6f3a24d1a4")
+	)
+	(wire
+		(pts
+			(xy 71.12 180.34) (xy 73.66 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b947900f-2e67-4387-94d1-52d75165083f")
 	)
 	(wire
 		(pts

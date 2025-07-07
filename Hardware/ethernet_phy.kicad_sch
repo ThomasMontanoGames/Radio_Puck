@@ -5982,6 +5982,46 @@
 			"IYQQQgghhJAaAPj/G+espKVeGC8AAAAASUVORK5CYII="
 		)
 	)
+	(label "RD_N"
+		(at 132.08 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ceae579-01fe-40a0-8c07-877186116150")
+	)
+	(label "RD_P"
+		(at 132.08 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77e20e27-9091-4c6e-ba1a-98026377d266")
+	)
+	(label "TD_N"
+		(at 132.08 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e815687-6160-41cb-9303-8123dcfbff72")
+	)
+	(label "TD_P"
+		(at 132.08 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a38acd8e-4a8e-4049-a881-278c8c6a4f91")
+	)
 	(global_label "ETH_TXD3"
 		(shape input)
 		(at 57.15 97.79 180)

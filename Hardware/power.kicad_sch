@@ -6053,6 +6053,16 @@
 			"7/0/6QLmc95NeCcAAAAASUVORK5CYII="
 		)
 	)
+	(label "3V3_L"
+		(at 110.49 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "279ea9f2-e1b5-49b7-a461-82522a8d5ae7")
+	)
 	(global_label "USB_DP"
 		(shape bidirectional)
 		(at 116.84 134.62 0)
